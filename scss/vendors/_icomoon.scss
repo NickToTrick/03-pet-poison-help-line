@@ -1,0 +1,134 @@
+@import "icomoon-variables";
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('#{$icomoon-font-path}/icomoon.eot?6f0bbz');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?6f0bbz#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/icomoon.ttf?6f0bbz') format('truetype'),
+    url('#{$icomoon-font-path}/icomoon.woff?6f0bbz') format('woff'),
+    url('#{$icomoon-font-path}/icomoon.svg?6f0bbz#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-help-01 {
+  &:before {
+    content: $icon-help-01; 
+  }
+}
+.icon-help-02 {
+  &:before {
+    content: $icon-help-02; 
+  }
+}
+.icon-help-03 {
+  &:before {
+    content: $icon-help-03; 
+  }
+}
+.icon-mobile-nav-01 {
+  &:before {
+    content: $icon-mobile-nav-01; 
+  }
+}
+.icon-mobile-nav-02 {
+  &:before {
+    content: $icon-mobile-nav-02; 
+  }
+}
+.icon-mobile-nav-03 {
+  &:before {
+    content: $icon-mobile-nav-03; 
+  }
+}
+.icon-mobile-nav-04 {
+  &:before {
+    content: $icon-mobile-nav-04; 
+  }
+}
+.icon-checkbox {
+  &:before {
+    content: $icon-checkbox; 
+  }
+}
+.icon-close {
+  &:before {
+    content: $icon-close; 
+  }
+}
+.icon-arrow-left {
+  &:before {
+    content: $icon-arrow-left; 
+  }
+}
+.icon-arrow-right {
+  &:before {
+    content: $icon-arrow-right; 
+  }
+}
+.icon-categories {
+  &:before {
+    content: $icon-categories; 
+  }
+}
+.icon-down {
+  &:before {
+    content: $icon-down; 
+  }
+}
+.icon-up {
+  &:before {
+    content: $icon-up; 
+  }
+}
+.icon-minus {
+  &:before {
+    content: $icon-minus; 
+  }
+}
+.icon-plus {
+  &:before {
+    content: $icon-plus; 
+  }
+}
+.icon-search {
+  &:before {
+    content: $icon-search; 
+  }
+}
+.icon-facebook {
+  &:before {
+    content: $icon-facebook; 
+  }
+}
+.icon-twitter {
+  &:before {
+    content: $icon-twitter; 
+  }
+}
+.icon-youtube {
+  &:before {
+    content: $icon-youtube; 
+  }
+}
+.icon-pinterest {
+  &:before {
+    content: $icon-pinterest; 
+  }
+}
+

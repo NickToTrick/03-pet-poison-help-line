@@ -1,0 +1,98 @@
+@import "icomoon-variables";
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('#{$icomoon-font-path}/icomoon.eot?te5k4j');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?te5k4j#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/icomoon.ttf?te5k4j') format('truetype'),
+    url('#{$icomoon-font-path}/icomoon.woff?te5k4j') format('woff'),
+    url('#{$icomoon-font-path}/icomoon.svg?te5k4j#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@function unicode($str) {
+  @return unquote("\"") + $str + unquote("\"");
+}
+
+.icon-checkbox {
+  &:before {
+    content: unicode($icon-checkbox); 
+  }
+}
+.icon-close {
+  &:before {
+    content: unicode($icon-close); 
+  }
+}
+.icon-arrow-left {
+  &:before {
+    content: unicode($icon-arrow-left); 
+  }
+}
+.icon-arrow-right {
+  &:before {
+    content: unicode($icon-arrow-right); 
+  }
+}
+.icon-categories {
+  &:before {
+    content: unicode($icon-categories); 
+  }
+}
+.icon-down {
+  &:before {
+    content: unicode($icon-down); 
+  }
+}
+.icon-up {
+  &:before {
+    content: unicode($icon-up); 
+  }
+}
+.icon-minus {
+  &:before {
+    content: unicode($icon-minus); 
+  }
+}
+.icon-plus {
+  &:before {
+    content: unicode($icon-plus); 
+  }
+}
+.icon-search {
+  &:before {
+    content: unicode($icon-search); 
+  }
+}
+.icon-facebook {
+  &:before {
+    content: unicode($icon-facebook); 
+  }
+}
+.icon-twitter {
+  &:before {
+    content: unicode($icon-twitter); 
+  }
+}
+.icon-pinterest {
+  &:before {
+    content: unicode($icon-pinterest); 
+  }
+}
+

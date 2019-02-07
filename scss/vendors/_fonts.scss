@@ -1,0 +1,9 @@
+@import '../base/mixins';
+
+@include font-face (jellee-roman, jellee-roman, normal, normal);
+@include font-face (FuturaPT, FuturaPT-LightObl, 300, italic);
+@include font-face (FuturaPT, FuturaPTCond-BookObl, 400, italic);
+@include font-face (FuturaPT, FuturaPT-Heavy, 900, normal);
+@include font-face (FuturaPT, FuturaPT-BookObl, 400, italic);
+@include font-face (FuturaPT, FuturaPT-Medium, 500, normal);
+@include font-face (FuturaPT, FuturaPT-Book, 400, normal);
